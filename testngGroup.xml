@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Group Suite">
+  <test thread-count="5" name="Group Test">
+	  
+	  <groups>
+		  <define name="Grouper1">
+			  <include name="Sanity"></include>
+			  <include name="Performance"></include>
+			  
+		  </define>
+		  
+		<!-- 
+		  <run> 
+			  
+		   <include name="Total Testcases Testing"></include>
+			
+			  <include name="Regression"></include>
+			  <include name="Performance"></include>
+			  <exclude name="Sanity"></exclude>    
+			  <include name="Sanity"></include>        
+			  
+		  </run>    -->  
+		   </groups>
+	  
+    <classes>
+      <class name="Learning_TestNg.Group"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
