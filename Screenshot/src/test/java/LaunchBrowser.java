@@ -12,14 +12,14 @@ public class LaunchBrowser {
 		WebDriver driver=new FirefoxDriver();
 		driver.get("https://www.selenium.dev/downloads/");  */
 		
-   /*    System.setProperty("webdriver.chrome.driver","E:\\chromedriver.exe");
+     System.setProperty("webdriver.chrome.driver","E:\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		driver.get("https://www.selenium.dev/downloads/");   */
+		driver.get("https://www.selenium.dev/downloads/");   
 		
 	/*	WebDriverManager.chromedriver().setup();  
 		WebDriver driver=new ChromeDriver();      */
 		
-		WebDriverManager.firefoxdriver().setup();  
+	/*	WebDriverManager.firefoxdriver().setup();  
 		WebDriver driver=new FirefoxDriver();
 		
 		
